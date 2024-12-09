@@ -1,0 +1,152 @@
+/* Reset default styles */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    /* min-height: 100vh; */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50; /* Green color, same as the orders page */
+    color: white;
+    padding: 15px; /* Adjusted padding for a similar look */
+    text-align: center;
+    /* font-size: 1.8rem; Adjusted header size for consistency */
+}
+
+/* header h1 {
+    margin: 0;
+    font-size: 2rem; /* Increased the title font size for prominence 
+}*/
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+/* nav a:hover {
+    text-decoration: underline;
+} */
+
+/* Restaurant Grid Styles */
+.restaurant-grid {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the grid horizontally */
+    padding: 20px;
+}
+
+.restaurant-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0e0;
+    transition: transform 0.3s ease;
+}
+
+.restaurant-card:hover img {
+    transform: scale(1.05);
+}
+
+.restaurant-card h2 {
+    margin: 15px 0;
+    padding: 0 15px;
+    font-size: 1.4rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.restaurant-card:hover h2 {
+    color: #4CAF50;
+}
+
+.view-menu-button {
+    margin-top: auto; /* Push button to bottom of card */
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.view-menu-button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+    transform: translateY(-2px);
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .restaurant-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .restaurant-card h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .restaurant-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .restaurant-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1201px) {
+    .restaurant-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

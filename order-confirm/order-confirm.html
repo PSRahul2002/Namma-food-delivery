@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .confirmation-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .confirmation-container h1 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        .order-details {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .order-details h2 {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .order-details p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .estimated-time {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="confirmation-container">
+        <h1>Order Confirmed!</h1>
+        <div class="order-details">
+            <h2>Order Details</h2>
+            <p><strong>Restaurant:</strong> Namma Food</p>
+            <p><strong>Items Ordered:</strong> Grilled Chicken Salad, Margherita Pizza</p>
+            <p><strong>Total Amount:</strong> $22.98</p>
+            <p><strong>Delivery Address:</strong> 123 Main Street, Cityville</p>
+        </div>
+        <p class="estimated-time">Estimated Delivery Time: 30-45 minutes</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1",
+        "name": "Green Leaf",
+        "image": "images/green-leaf.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Sahib's Pizza",
+        "image": "images/Sahib's.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Sutra Bistro",
+        "image": "images/sutra-bistro.avif"
+    },
+    {
+        "id": "4",
+        "name": "Corner House",
+        "image": "images/corner-house.avif"
+    },
+    {
+        "id": "5",
+        "name": "Firangi Sutra",
+        "image": "images/firangi-sutra.jpeg"
+    },
+    {
+        "id": "6",
+        "name": "Onesta",
+        "image": "images/onesta.avif"
+    },
+    {
+        "id": "7",
+        "name": "Empire",
+        "image": "images/empire.avif"
+    },
+    {
+        "id": "8",
+        "name": "Polar Bear",
+        "image": "images/polar-bear.avif"
+    },
+    {
+        "id": "9",
+        "name": "Dosa Point",
+        "image": "images/dosa-point.avif"
+    },
+    {
+        "id": "10",
+        "name": "Cake Room",
+        "image": "images/cake-room.png"
+    },
+    {
+        "id": "11",
+        "name": "Kapoor's Cafe",
+        "image": "images/kapoor's-cafe.jpg"
+    },
+    {
+        "id": "12",
+        "name": "Hotel RRR",
+        "image": "images/RRR.avif"
+    },
+    {
+        "id": "13",
+        "name": "Sai's Kitchen",
+        "image": "images/Sai's-Kitchen.avif"
+    }
+]

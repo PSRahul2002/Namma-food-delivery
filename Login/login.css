@@ -1,0 +1,76 @@
+/* General styling for the login page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    text-align: center;
+    width: 90%; /* Responsive width */
+    max-width: 400px; /* Max width for larger screens */
+}
+
+h1 {
+    font-size: 28px; /* Consistent font size */
+    margin-bottom: 20px;
+    color: #333; /* Consistent text color */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Full width */
+    padding: 12px; /* Comfortable padding */
+    margin: 10px 0; /* Spacing between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #6a11cb; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.g_id_signin {
+    margin-top: 20px;
+}
+
+.error-message {
+    color: red; /* Consistent error message color */
+    margin-top: 20px;
+    display: none; /* Initially hidden */
+    font-weight: bold; /* Make error messages bold */
+}
+
+button {
+    font-size: 16px; /* Consistent button font size */
+    padding: 12px 20px; /* Increased padding */
+    background-color: #28a745; /* Consistent button color */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px; /* Rounded corners */
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #218838; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+button:active {
+    transform: translateY(0); /* Reset lift effect on click */
+}

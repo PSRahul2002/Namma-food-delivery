@@ -1,0 +1,959 @@
+[
+    {
+        "restaurantId": "1",
+        "restaurantName": "Green Leaf",
+        "description": "Desi food",
+        "categories": [
+            {
+                "name": "Breakfast",
+                "items": [
+                    {
+                        "id": "b11",
+                        "name": "Masala Dosa",
+                        "description": "Rice pancake with mashed potato",
+                        "price": 99,
+                        "image": "masala-dosa.jpg"
+                    },
+                    {
+                        "id": "b12",
+                        "name": "Idly",
+                        "description": "Steamed rice balls",
+                        "price": 49,
+                        "image": "idly.jpg"
+                    },
+                    {
+                        "id": "b13",
+                        "name": "Vada",
+                        "description": "Fried lentil doughnut",
+                        "price": 59,
+                        "image": "vada.jpg"
+                    },
+                    {
+                        "id": "b14",
+                        "name": "Upma",
+                        "description": "Savory semolina dish",
+                        "price": 89,
+                        "image": "upma.jpg"
+                    },
+                    {
+                        "id": "b15",
+                        "name": "Pongal",
+                        "description": "Rice and lentils with ginger",
+                        "price": 109,
+                        "image": "pongal.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Main Course",
+                "items": [
+                    {
+                        "id": "m11",
+                        "name": "Veg Biriyani",
+                        "description": "Spicy rice tossed with fresh veggies",
+                        "price": 399,
+                        "image": "veg-biriyani.jpg"
+                    },
+                    {
+                        "id": "m12",
+                        "name": "Chana Masala",
+                        "description": "Chickpeas cooked in spicy gravy",
+                        "price": 179,
+                        "image": "chana-masala.jpg"
+                    },
+                    {
+                        "id": "m13",
+                        "name": "Aloo Gobi",
+                        "description": "Potatoes and cauliflower curry",
+                        "price": 249,
+                        "image": "aloo-gobi.jpg"
+                    },
+                    {
+                        "id": "m14",
+                        "name": "Palak Paneer",
+                        "description": "Spinach curry with cottage cheese",
+                        "price": 319,
+                        "image": "palak-paneer.jpg"
+                    },
+                    {
+                        "id": "m15",
+                        "name": "Butter Chicken",
+                        "description": "Creamy chicken curry",
+                        "price": 399,
+                        "image": "butter-chicken.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "restaurantId": "2",
+        "restaurantName": "Sahib's Pizza",
+        "description": "Authentic cuisine with a modern twist",
+        "categories": [
+            {
+                "name": "Starters",
+                "items": [
+                    {
+                        "id": "b21",
+                        "name": "Spring Rolls",
+                        "description": "Crispy vegetable spring rolls",
+                        "price": 199,
+                        "image": "spring-rolls.jpg"
+                    },
+                    {
+                        "id": "b22",
+                        "name": "Garlic Bread",
+                        "description": "Crispy bread with garlic butter",
+                        "price": 149,
+                        "image": "garlic-bread.jpg"
+                    },
+                    {
+                        "id": "b23",
+                        "name": "Mozzarella Sticks",
+                        "description": "Fried cheese sticks",
+                        "price": 249,
+                        "image": "mozzarella-sticks.jpg"
+                    },
+                    {
+                        "id": "b24",
+                        "name": "Bruschetta",
+                        "description": "Grilled bread topped with tomatoes and basil",
+                        "price": 179,
+                        "image": "bruschetta.jpg"
+                    },
+                    {
+                        "id": "b25",
+                        "name": "Stuffed Mushrooms",
+                        "description": "Mushrooms filled with cheese and herbs",
+                        "price": 269,
+                        "image": "stuffed-mushrooms.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Main Course",
+                "items": [
+                    {
+                        "id": "m21",
+                        "name": "Butter Chicken",
+                        "description": "Creamy tomato-based curry with tender chicken",
+                        "price": 399,
+                        "image": "butter-chicken.jpg"
+                    },
+                    {
+                        "id": "m22",
+                        "name": "Tandoori Chicken",
+                        "description": "Grilled marinated chicken",
+                        "price": 399,
+                        "image": "tandoori-chicken.jpg"
+                    },
+                    {
+                        "id": "m23",
+                        "name": "Veg Pizza",
+                        "description": "Pizza with a variety of fresh veggies",
+                        "price": 299,
+                        "image": "veg-pizza.jpg"
+                    },
+                    {
+                        "id": "m24",
+                        "name": "Chicken Pizza",
+                        "description": "Pizza with marinated chicken and cheese",
+                        "price": 349,
+                        "image": "chicken-pizza.jpg"
+                    },
+                    {
+                        "id": "m25",
+                        "name": "Pasta Alfredo",
+                        "description": "Pasta in creamy white sauce",
+                        "price": 269,
+                        "image": "pasta-alfredo.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "restaurantId": "3",
+        "restaurantName": "Sutra Bistro",
+        "description": "A cozy cafe with a fusion menu",
+        "categories": [
+            {
+                "name": "Starters",
+                "items": [
+                    {
+                        "id": "b31",
+                        "name": "Bruschetta",
+                        "description": "Grilled bread topped with tomatoes, basil, and olive oil",
+                        "price": 149,
+                        "image": "bruschetta.jpg"
+                    },
+                    {
+                        "id": "b32",
+                        "name": "Prawn Cocktail",
+                        "description": "Prawns served with cocktail sauce",
+                        "price": 349,
+                        "image": "prawn-cocktail.jpg"
+                    },
+                    {
+                        "id": "b33",
+                        "name": "Garlic Bread",
+                        "description": "Crispy bread with garlic butter",
+                        "price": 119,
+                        "image": "garlic-bread.jpg"
+                    },
+                    {
+                        "id": "b34",
+                        "name": "Spinach and Cheese Dip",
+                        "description": "A creamy dip served with chips",
+                        "price": 249,
+                        "image": "spinach-dip.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Main Course",
+                "items": [
+                    {
+                        "id": "m31",
+                        "name": "Grilled Salmon",
+                        "description": "Grilled fish served with vegetables",
+                        "price": 499,
+                        "image": "grilled-salmon.jpg"
+                    },
+                    {
+                        "id": "m32",
+                        "name": "Vegetable Lasagna",
+                        "description": "Layers of pasta with vegetables and cheese",
+                        "price": 399,
+                        "image": "vegetable-lasagna.jpg"
+                    },
+                    {
+                        "id": "m33",
+                        "name": "Chicken Carbonara",
+                        "description": "Pasta in creamy sauce with grilled chicken",
+                        "price": 359,
+                        "image": "chicken-carbonara.jpg"
+                    },
+                    {
+                        "id": "m34",
+                        "name": "BBQ Chicken",
+                        "description": "BBQ chicken served with fries",
+                        "price": 399,
+                        "image": "bbq-chicken.jpg"
+                    },
+                    {
+                        "id": "m35",
+                        "name": "Pasta Primavera",
+                        "description": "Pasta with fresh vegetables in olive oil sauce",
+                        "price": 269,
+                        "image": "pasta-primavera.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "restaurantId": "4",
+        "restaurantName": "Corner House",
+        "description": "Satisfy your sweet tooth with our delicious desserts",
+        "categories": [
+            {
+                "name": "Starters",
+                "items": [
+                    {
+                        "id": "b41",
+                        "name": "Chocolate Fondue",
+                        "description": "Melted chocolate served with fruits and marshmallows",
+                        "price": 249,
+                        "image": "chocolate-fondue.jpg"
+                    },
+                    {
+                        "id": "b42",
+                        "name": "Fruit Tart",
+                        "description": "Sweet pastry with fresh fruit toppings",
+                        "price": 199,
+                        "image": "fruit-tart.jpg"
+                    },
+                    {
+                        "id": "b43",
+                        "name": "Caramel Pudding",
+                        "description": "Creamy caramel pudding",
+                        "price": 159,
+                        "image": "caramel-pudding.jpg"
+                    },
+                    {
+                        "id": "b44",
+                        "name": "Cinnamon Rolls",
+                        "description": "Soft rolls with cinnamon and sugar",
+                        "price": 129,
+                        "image": "cinnamon-rolls.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Main Course",
+                "items": [
+                    {
+                        "id": "m41",
+                        "name": "Chocolate Lava Cake",
+                        "description": "Warm chocolate cake with molten center",
+                        "price": 299,
+                        "image": "chocolate-lava-cake.jpg"
+                    },
+                    {
+                        "id": "m42",
+                        "name": "Strawberry Cheesecake",
+                        "description": "Cheesecake topped with fresh strawberries",
+                        "price": 329,
+                        "image": "strawberry-cheesecake.jpg"
+                    },
+                    {
+                        "id": "m43",
+                        "name": "Banoffee Pie",
+                        "description": "Banana and toffee pie",
+                        "price": 259,
+                        "image": "banoffee-pie.jpg"
+                    },
+                    {
+                        "id": "m44",
+                        "name": "Tiramisu",
+                        "description": "Layered Italian dessert with coffee flavor",
+                        "price": 289,
+                        "image": "tiramisu.jpg"
+                    },
+                    {
+                        "id": "m45",
+                        "name": "Fruit Salad",
+                        "description": "Fresh fruit salad with a drizzle of honey",
+                        "price": 169,
+                        "image": "fruit-salad.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "restaurantId": "5",
+        "restaurantName": "Firangi Sutra",
+        "description": "Fusion cuisine with global flavors",
+        "categories": [
+            {
+                "name": "Starters",
+                "items": [
+                    {
+                        "id": "b51",
+                        "name": "Chicken Wings",
+                        "description": "Spicy and crispy chicken wings",
+                        "price": 249,
+                        "image": "chicken-wings.jpg"
+                    },
+                    {
+                        "id": "b52",
+                        "name": "Hummus with Pita",
+                        "description": "Creamy hummus served with pita bread",
+                        "price": 179,
+                        "image": "hummus-pita.jpg"
+                    },
+                    {
+                        "id": "b53",
+                        "name": "Veg Pakoras",
+                        "description": "Crispy vegetable fritters",
+                        "price": 169,
+                        "image": "veg-pakoras.jpg"
+                    },
+                    {
+                        "id": "b54",
+                        "name": "Chili Cheese Toast",
+                        "description": "Cheese toast with a spicy chili topping",
+                        "price": 199,
+                        "image": "chili-cheese-toast.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Main Course",
+                "items": [
+                    {
+                        "id": "m51",
+                        "name": "Thai Green Curry",
+                        "description": "Spicy green curry with vegetables or chicken",
+                        "price": 359,
+                        "image": "thai-green-curry.jpg"
+                    },
+                    {
+                        "id": "m52",
+                        "name": "Vegetarian Burritos",
+                        "description": "Burritos with beans, rice, and veggies",
+                        "price": 299,
+                        "image": "vegetarian-burritos.jpg"
+                    },
+                    {
+                        "id": "m53",
+                        "name": "Chicken Tikka Masala",
+                        "description": "Creamy chicken curry in spiced tomato gravy",
+                        "price": 349,
+                        "image": "chicken-tikka-masala.jpg"
+                    },
+                    {
+                        "id": "m54",
+                        "name": "Falafel Wrap",
+                        "description": "Falafel wrapped with fresh veggies and tahini sauce",
+                        "price": 249,
+                        "image": "falafel-wrap.jpg"
+                    },
+                    {
+                        "id": "m55",
+                        "name": "Spaghetti Bolognese",
+                        "description": "Pasta with meat-based tomato sauce",
+                        "price": 299,
+                        "image": "spaghetti-bolognese.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "restaurantId": "6",
+        "restaurantName": "Onesta",
+        "description": "Delicious pizzas and more",
+        "categories": [
+            {
+                "name": "Starters",
+                "items": [
+                    {
+                        "id": "b61",
+                        "name": "Garlic Bread",
+                        "description": "Crispy bread with garlic butter",
+                        "price": 149,
+                        "image": "garlic-bread.jpg"
+                    },
+                    {
+                        "id": "b62",
+                        "name": "Cheese Sticks",
+                        "description": "Fried cheese sticks served with marinara sauce",
+                        "price": 199,
+                        "image": "cheese-sticks.jpg"
+                    },
+                    {
+                        "id": "b63",
+                        "name": "Bruschetta",
+                        "description": "Grilled bread with tomato, garlic, and basil",
+                        "price": 179,
+                        "image": "bruschetta.jpg"
+                    },
+                    {
+                        "id": "b64",
+                        "name": "Vegetable Pakoras",
+                        "description": "Crispy deep-fried fritters made with mixed vegetables",
+                        "price": 179,
+                        "image": "veg-pakoras.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Pizzas",
+                "items": [
+                    {
+                        "id": "p61",
+                        "name": "Margherita Pizza",
+                        "description": "Classic pizza with mozzarella and fresh basil",
+                        "price": 299,
+                        "image": "margherita-pizza.jpg"
+                    },
+                    {
+                        "id": "p62",
+                        "name": "Veggie Supreme Pizza",
+                        "description": "Pizza topped with a variety of fresh veggies",
+                        "price": 349,
+                        "image": "veggie-supreme-pizza.jpg"
+                    },
+                    {
+                        "id": "p63",
+                        "name": "Pepperoni Pizza",
+                        "description": "Pizza topped with spicy pepperoni slices",
+                        "price": 379,
+                        "image": "pepperoni-pizza.jpg"
+                    },
+                    {
+                        "id": "p64",
+                        "name": "BBQ Chicken Pizza",
+                        "description": "Pizza with BBQ chicken, cheese, and caramelized onions",
+                        "price": 399,
+                        "image": "bbq-chicken-pizza.jpg"
+                    },
+                    {
+                        "id": "p65",
+                        "name": "Hawaiian Pizza",
+                        "description": "Pizza with ham and pineapple",
+                        "price": 349,
+                        "image": "hawaiian-pizza.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "restaurantId": "7",
+        "restaurantName": "Empire",
+        "description": "Delicious biriyanis and curries",
+        "categories": [
+            {
+                "name": "Starters",
+                "items": [
+                    {
+                        "id": "b71",
+                        "name": "Samosas",
+                        "description": "Crispy pastry filled with spiced potatoes and peas",
+                        "price": 99,
+                        "image": "samosas.jpg"
+                    },
+                    {
+                        "id": "b72",
+                        "name": "Chicken Seekh Kebab",
+                        "description": "Minced chicken grilled on skewers with spices",
+                        "price": 199,
+                        "image": "seekh-kebab.jpg"
+                    },
+                    {
+                        "id": "b73",
+                        "name": "Paneer Tikka",
+                        "description": "Cottage cheese marinated in spices and grilled",
+                        "price": 249,
+                        "image": "paneer-tikka.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Main Course",
+                "items": [
+                    {
+                        "id": "m71",
+                        "name": "Chicken Biriyani",
+                        "description": "Spicy rice dish made with tender chicken",
+                        "price": 399,
+                        "image": "chicken-biriyani.jpg"
+                    },
+                    {
+                        "id": "m72",
+                        "name": "Veg Biriyani",
+                        "description": "Aromatic rice mixed with vegetables and spices",
+                        "price": 349,
+                        "image": "veg-biriyani.jpg"
+                    },
+                    {
+                        "id": "m73",
+                        "name": "Mutton Korma",
+                        "description": "Mutton cooked in a rich and creamy curry",
+                        "price": 449,
+                        "image": "mutton-korma.jpg"
+                    },
+                    {
+                        "id": "m74",
+                        "name": "Egg Curry",
+                        "description": "Hard-boiled eggs in spicy curry",
+                        "price": 299,
+                        "image": "egg-curry.jpg"
+                    },
+                    {
+                        "id": "m75",
+                        "name": "Fish Curry",
+                        "description": "Fish cooked in a tangy and spicy curry",
+                        "price": 399,
+                        "image": "fish-curry.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "restaurantId": "8",
+        "restaurantName": "Polar Bear",
+        "description": "Frozen desserts and ice creams",
+        "categories": [
+            {
+                "name": "Ice Creams",
+                "items": [
+                    {
+                        "id": "d81",
+                        "name": "Vanilla Ice Cream",
+                        "description": "Classic vanilla flavor",
+                        "price": 99,
+                        "image": "vanilla-ice-cream.jpg"
+                    },
+                    {
+                        "id": "d82",
+                        "name": "Chocolate Fudge",
+                        "description": "Chocolate ice cream with fudge swirls",
+                        "price": 149,
+                        "image": "chocolate-fudge.jpg"
+                    },
+                    {
+                        "id": "d83",
+                        "name": "Strawberry Ice Cream",
+                        "description": "Creamy ice cream with fresh strawberry flavor",
+                        "price": 129,
+                        "image": "strawberry-ice-cream.jpg"
+                    },
+                    {
+                        "id": "d84",
+                        "name": "Mint Chocolate Chip",
+                        "description": "Mint ice cream with chocolate chunks",
+                        "price": 139,
+                        "image": "mint-chocolate-chip.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Frozen Yogurt",
+                "items": [
+                    {
+                        "id": "d85",
+                        "name": "Tropical Yogurt",
+                        "description": "Frozen yogurt with tropical fruits",
+                        "price": 169,
+                        "image": "tropical-yogurt.jpg"
+                    },
+                    {
+                        "id": "d86",
+                        "name": "Berry Yogurt",
+                        "description": "Frozen yogurt with mixed berries",
+                        "price": 179,
+                        "image": "berry-yogurt.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "restaurantId": "9",
+        "restaurantName": "Dosa Point",
+        "description": "Delicious dosas and South Indian food",
+        "categories": [
+            {
+                "name": "Starters",
+                "items": [
+                    {
+                        "id": "b91",
+                        "name": "Sambar Vada",
+                        "description": "Fried lentil doughnuts served with sambar",
+                        "price": 99,
+                        "image": "sambar-vada.jpg"
+                    },
+                    {
+                        "id": "b92",
+                        "name": "Medu Vada",
+                        "description": "Crispy deep-fried doughnuts made with urad dal",
+                        "price": 89,
+                        "image": "medu-vada.jpg"
+                    },
+                    {
+                        "id": "b93",
+                        "name": "Onion Pakora",
+                        "description": "Crispy onion fritters",
+                        "price": 119,
+                        "image": "onion-pakora.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Dosas",
+                "items": [
+                    {
+                        "id": "d91",
+                        "name": "Masala Dosa",
+                        "description": "Rice pancake stuffed with spiced potatoes",
+                        "price": 129,
+                        "image": "masala-dosa.jpg"
+                    },
+                    {
+                        "id": "d92",
+                        "name": "Plain Dosa",
+                        "description": "Crispy rice pancake served with chutney and sambar",
+                        "price": 99,
+                        "image": "plain-dosa.jpg"
+                    },
+                    {
+                        "id": "d93",
+                        "name": "Rava Dosa",
+                        "description": "Crispy dosa made with semolina",
+                        "price": 139,
+                        "image": "rava-dosa.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "restaurantId": "10",
+        "restaurantName": "Cake Room",
+        "description": "Delectable cakes and pastries",
+        "categories": [
+            {
+                "name": "Cakes",
+                "items": [
+                    {
+                        "id": "c101",
+                        "name": "Chocolate Fudge Cake",
+                        "description": "Rich chocolate cake with fudge filling",
+                        "price": 499,
+                        "image": "chocolate-fudge-cake.jpg"
+                    },
+                    {
+                        "id": "c102",
+                        "name": "Vanilla Bean Cake",
+                        "description": "Classic vanilla cake with creamy frosting",
+                        "price": 399,
+                        "image": "vanilla-bean-cake.jpg"
+                    },
+                    {
+                        "id": "c103",
+                        "name": "Red Velvet Cake",
+                        "description": "Moist red velvet cake with cream cheese frosting",
+                        "price": 499,
+                        "image": "red-velvet-cake.jpg"
+                    },
+                    {
+                        "id": "c104",
+                        "name": "Carrot Cake",
+                        "description": "Spiced carrot cake with walnuts and cream cheese frosting",
+                        "price": 429,
+                        "image": "carrot-cake.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Pastries",
+                "items": [
+                    {
+                        "id": "p101",
+                        "name": "Strawberry Pastry",
+                        "description": "Light sponge cake with strawberry topping",
+                        "price": 199,
+                        "image": "strawberry-pastry.jpg"
+                    },
+                    {
+                        "id": "p102",
+                        "name": "Black Forest Pastry",
+                        "description": "Chocolate cake layered with cherries and whipped cream",
+                        "price": 219,
+                        "image": "black-forest-pastry.jpg"
+                    },
+                    {
+                        "id": "p103",
+                        "name": "Lemon Meringue Tart",
+                        "description": "Sweet and tangy lemon filling in a crisp pastry shell",
+                        "price": 249,
+                        "image": "lemon-meringue-tart.jpg"
+                    },
+                    {
+                        "id": "p104",
+                        "name": "Coffee Walnut Cake",
+                        "description": "Coffee-flavored sponge cake with walnut pieces",
+                        "price": 249,
+                        "image": "coffee-walnut-cake.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "restaurantId": "11",
+        "restaurantName": "Kappor's Cafe",
+        "description": "North Indian cuisine with rich gravies",
+        "categories": [
+            {
+                "name": "Starters",
+                "items": [
+                    {
+                        "id": "b111",
+                        "name": "Paneer Tikka",
+                        "description": "Grilled cottage cheese cubes marinated in spices",
+                        "price": 249,
+                        "image": "paneer-tikka.jpg"
+                    },
+                    {
+                        "id": "b112",
+                        "name": "Aloo Tikki",
+                        "description": "Spiced potato patties served with chutney",
+                        "price": 129,
+                        "image": "aloo-tikki.jpg"
+                    },
+                    {
+                        "id": "b113",
+                        "name": "Chicken Pakora",
+                        "description": "Chicken pieces battered and deep fried",
+                        "price": 219,
+                        "image": "chicken-pakora.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Main Course",
+                "items": [
+                    {
+                        "id": "m111",
+                        "name": "Butter Chicken",
+                        "description": "Creamy tomato-based curry with tender chicken",
+                        "price": 399,
+                        "image": "butter-chicken.jpg"
+                    },
+                    {
+                        "id": "m112",
+                        "name": "Rogan Josh",
+                        "description": "Spicy Kashmiri mutton curry",
+                        "price": 469,
+                        "image": "rogan-josh.jpg"
+                    },
+                    {
+                        "id": "m113",
+                        "name": "Dal Makhani",
+                        "description": "Slow-cooked black lentils with creamy gravy",
+                        "price": 299,
+                        "image": "dal-makhani.jpg"
+                    },
+                    {
+                        "id": "m114",
+                        "name": "Tandoori Roti",
+                        "description": "Indian flatbread baked in a clay oven",
+                        "price": 39,
+                        "image": "tandoori-roti.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "restaurantId": "12",
+        "restaurantName": "RRR",
+        "description": "Biryanis from every corner of India",
+        "categories": [
+            {
+                "name": "Starters",
+                "items": [
+                    {
+                        "id": "b121",
+                        "name": "Chicken Pakora",
+                        "description": "Spicy deep-fried chicken fritters",
+                        "price": 199,
+                        "image": "chicken-pakora.jpg"
+                    },
+                    {
+                        "id": "b122",
+                        "name": "Vegetable Samosa",
+                        "description": "Fried pastry filled with spiced vegetables",
+                        "price": 99,
+                        "image": "veg-samosa.jpg"
+                    },
+                    {
+                        "id": "b123",
+                        "name": "Onion Bhaji",
+                        "description": "Deep-fried onion fritters",
+                        "price": 139,
+                        "image": "onion-bhaji.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Biryanis",
+                "items": [
+                    {
+                        "id": "b121",
+                        "name": "Chicken Biriyani",
+                        "description": "Fragrant rice layered with tender chicken",
+                        "price": 399,
+                        "image": "chicken-biriyani.jpg"
+                    },
+                    {
+                        "id": "b122",
+                        "name": "Mutton Biriyani",
+                        "description": "Rich and flavorful biryani made with mutton",
+                        "price": 499,
+                        "image": "mutton-biriyani.jpg"
+                    },
+                    {
+                        "id": "b123",
+                        "name": "Veg Biriyani",
+                        "description": "Aromatic rice with mixed vegetables",
+                        "price": 349,
+                        "image": "veg-biriyani.jpg"
+                    },
+                    {
+                        "id": "b124",
+                        "name": "Fish Biriyani",
+                        "description": "Basmati rice cooked with spiced fish",
+                        "price": 429,
+                        "image": "fish-biriyani.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "restaurantId": "13",
+        "restaurantName": "Sai's Kitchen",
+        "description": "Fusion food with a twist",
+        "categories": [
+            {
+                "name": "Starters",
+                "items": [
+                    {
+                        "id": "b131",
+                        "name": "Chili Garlic Fries",
+                        "description": "Spicy and crispy French fries",
+                        "price": 169,
+                        "image": "chili-garlic-fries.jpg"
+                    },
+                    {
+                        "id": "b132",
+                        "name": "Sushi Rolls",
+                        "description": "Fresh rolls filled with fish and vegetables",
+                        "price": 249,
+                        "image": "sushi-rolls.jpg"
+                    },
+                    {
+                        "id": "b133",
+                        "name": "Falafel",
+                        "description": "Crispy deep-fried chickpea balls served with tahini",
+                        "price": 189,
+                        "image": "falafel.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Main Course",
+                "items": [
+                    {
+                        "id": "m131",
+                        "name": "Spaghetti Aglio e Olio",
+                        "description": "Pasta with garlic, chili, and olive oil",
+                        "price": 299,
+                        "image": "spaghetti-aglio-olio.jpg"
+                    },
+                    {
+                        "id": "m132",
+                        "name": "Teriyaki Chicken",
+                        "description": "Grilled chicken glazed with teriyaki sauce",
+                        "price": 349,
+                        "image": "teriyaki-chicken.jpg"
+                    },
+                    {
+                        "id": "m133",
+                        "name": "Paneer Tikka Masala",
+                        "description": "Grilled paneer in a spicy tomato gravy",
+                        "price": 289,
+                        "image": "paneer-tikka-masala.jpg"
+                    },
+                    {
+                        "id": "m134",
+                        "name": "Vegetable Stir Fry",
+                        "description": "Mixed vegetables stir-fried with soy sauce",
+                        "price": 249,
+                        "image": "vegetable-stir-fry.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+
+]

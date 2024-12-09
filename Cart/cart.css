@@ -1,0 +1,302 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.cart-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* h1 {
+    text-align: center;
+    color: #333;
+} */
+
+.restaurant-info {
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.cart-items {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item-name {
+    font-weight: bold;
+}
+
+.cart-item-price {
+    color: #28a745;
+}
+
+.special-instructions {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#special-instructions {
+    width: 97%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.select-address {
+    margin-bottom: 20px;
+}
+
+#address-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#checkout-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background and transform */
+}
+
+#checkout-btn:hover {
+    background-color: #4CAF50;
+    transform: scale(1.01);
+}
+
+header {
+    background-color: #4CAF50; /* Match the user_info page */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+
+
+
+
+address-section {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.address-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.address-item:hover {
+    transform: scale(1.02);
+}
+
+.address-item p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.address-item button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.address-item button:hover {
+    background-color: #d32f2f;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.add-address-btn {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.add-address-btn:hover {
+    background-color: #0056b3;
+}
+
+#addAddressForm {
+    display: none;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#addressForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#addressForm input,
+#addressForm select,
+#addressForm textarea {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#addressForm input:focus,
+#addressForm select:focus,
+#addressForm textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+#addressForm button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addressForm button:hover {
+    background-color: #45a049;
+}
+
+.add-address-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.add-address-btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Ensure the form is hidden initially */
+#addAddressForm {
+    display: none;
+}
+
+/* Show the form */
+#addAddressForm.show {
+    visibility: visible; /* Make it visible */
+    opacity: 1; /* Fully opaque */
+    position: static; /* Return it to normal layout */
+    top: auto; /* Remove the top positioning */
+    transition: visibility 0s 0s, opacity 0.3s ease-in-out; /* Smooth transition */
+}
+
+
+/* Smooth transitions for buttons */
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.selected-address {
+    background-color: #e0f7fa; /* Light blue background */
+    border: 2px solid #00796b; /* Darker border */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#selectButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#selectButton:hover {
+    background-color: #45a049;
+}

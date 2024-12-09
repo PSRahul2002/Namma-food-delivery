@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Account</title>
+    <link rel="stylesheet" href="user_info.css">
+</head>
+<body>
+    <header>
+        <h1>User Account</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../restaurants/restaurants.html">Restaurants</a></li>
+                <li><a href="../Orders/my-orders.html">My Orders</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="account-container">
+        <h2>Account Information</h2>
+        <div class="user-info">
+            <p><strong>Name:</strong> <span id="userName"></span></p>
+            <p><strong>Email:</strong> <span id="userEmail"></span></p>
+            
+            <!-- Move the Logout button here, above the addresses section -->
+            <button id="logoutButton">Logout</button>
+
+            <div id="addresses">
+                <h3>Addresses</h3>
+                <div id="addressList"></div>
+                <!-- Initially empty address section -->
+            </div>
+            
+            <!-- Hidden form to add a new address -->
+            <div id="addAddressForm" style="display: none;">
+                <h3>Add New Address</h3>
+                <form id="addressForm">
+                    <label for="addressName">Name:</label>
+                    <input type="text" id="addressName" required><br><br>
+
+                    <label for="addressCity">City:</label>
+                    <input type="text" id="addressCity" required><br><br>
+
+                    <label for="addressArea">Area:</label>
+                    <input type="text" id="addressArea" required><br><br>
+
+                    <label for="addressStreet">Street:</label>
+                    <input type="text" id="addressStreet" required><br><br>
+
+                    <label for="addressLandmark">Landmark:</label>
+                    <input type="text" id="addressLandmark" required><br><br>
+
+                    <label for="addressPincode">Pincode:</label>
+                    <input type="text" id="addressPincode" required><br><br>
+
+                    <label for="addressPhone">Phone:</label>
+                    <input type="text" id="addressPhone" required><br><br>
+
+                    <button type="submit">Save Address</button>
+                    <button type="button" id="cancelAddAddress">Cancel</button>
+                </form>
+            </div>
+            
+            <button id="addAddressButton">Add Address</button>
+        </div>
+        <!-- <button id="editButton">Edit Information</button> -->
+    </main>
+
+    <script src="user_info3.js"></script>
+</body>
+</html>
