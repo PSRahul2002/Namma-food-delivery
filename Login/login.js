@@ -3,7 +3,7 @@ function handleCredentialResponse(response) {
     console.log("Encoded JWT ID token: " + response.credential);
 
     // Send the token to your back-end API
-    fetch('http://127.0.0.1:8000/api/auth/google-signin', {
+    fetch('https://namma-food-delivery-backend.onrender.com/api/auth/google-signin', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
